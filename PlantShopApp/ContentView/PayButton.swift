@@ -6,8 +6,6 @@
 //
 
 import SwiftUI
-
-import SwiftUI
 import PassKit
 
 struct PaymentButton: View {
@@ -46,7 +44,7 @@ extension PaymentButton {
     
     class Coordinator: NSObject {
         var action: () -> Void
-        var button = PKPaymentButton(paymentButtonType: .buy, paymentButtonStyle: .black)
+        var button = PKPaymentButton(paymentButtonType: .buy, paymentButtonStyle: .automatic)
         
         init(action: @escaping () -> Void) {
             self.action = action
