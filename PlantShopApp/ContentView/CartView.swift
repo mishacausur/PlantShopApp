@@ -16,6 +16,8 @@ struct CartView: View {
                     CartItem(plant: plant)
                         .environmentObject(manager)
                 }
+                PaymentButton(action: manager.pay)
+                    .padding()
             } else {
                 Text("Your cart is empty")
                     .font(.headline)

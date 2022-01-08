@@ -11,6 +11,8 @@
 		B60964522789BD9800E99C03 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60964512789BD9800E99C03 /* AppManager.swift */; };
 		B60964542789C0FE00E99C03 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60964532789C0FE00E99C03 /* CartView.swift */; };
 		B60964562789C31100E99C03 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60964552789C31100E99C03 /* CartItem.swift */; };
+		B609645B2789E38800E99C03 /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609645A2789E38800E99C03 /* PaymentHandler.swift */; };
+		B609645D2789E45500E99C03 /* PayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609645C2789E45500E99C03 /* PayButton.swift */; };
 		B6927BAD2789AD7D0031B432 /* PlantShopAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6927BAC2789AD7D0031B432 /* PlantShopAppApp.swift */; };
 		B6927BAF2789AD7D0031B432 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6927BAE2789AD7D0031B432 /* ContentView.swift */; };
 		B6927BB12789AD7F0031B432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6927BB02789AD7F0031B432 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 		B60964512789BD9800E99C03 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		B60964532789C0FE00E99C03 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		B60964552789C31100E99C03 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		B609645A2789E38800E99C03 /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
+		B609645C2789E45500E99C03 /* PayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayButton.swift; sourceTree = "<group>"; };
 		B6927BA92789AD7D0031B432 /* PlantShopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantShopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6927BAC2789AD7D0031B432 /* PlantShopAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantShopAppApp.swift; sourceTree = "<group>"; };
 		B6927BAE2789AD7D0031B432 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				B60964512789BD9800E99C03 /* AppManager.swift */,
+				B609645A2789E38800E99C03 /* PaymentHandler.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -102,6 +107,7 @@
 			children = (
 				B6927BAE2789AD7D0031B432 /* ContentView.swift */,
 				B609644E2789B95800E99C03 /* CartButton.swift */,
+				B609645C2789E45500E99C03 /* PayButton.swift */,
 				B60964552789C31100E99C03 /* CartItem.swift */,
 				B60964532789C0FE00E99C03 /* CartView.swift */,
 				B6927BBE2789B0850031B432 /* CardView.swift */,
@@ -183,7 +189,9 @@
 				B60964542789C0FE00E99C03 /* CartView.swift in Sources */,
 				B60964562789C31100E99C03 /* CartItem.swift in Sources */,
 				B6927BBB2789AE230031B432 /* PlantModel.swift in Sources */,
+				B609645B2789E38800E99C03 /* PaymentHandler.swift in Sources */,
 				B6927BBF2789B0850031B432 /* CardView.swift in Sources */,
+				B609645D2789E45500E99C03 /* PayButton.swift in Sources */,
 				B60964522789BD9800E99C03 /* AppManager.swift in Sources */,
 				B6927BAD2789AD7D0031B432 /* PlantShopAppApp.swift in Sources */,
 				B609644F2789B95800E99C03 /* CartButton.swift in Sources */,
