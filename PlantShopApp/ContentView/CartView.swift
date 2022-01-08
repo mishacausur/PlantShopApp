@@ -17,6 +17,7 @@ struct CartView: View {
                         .environmentObject(manager)
                 }
                 PaymentButton(action: manager.pay)
+                    .cornerRadius(12)
                     .padding()
             } else {
                 Text("Your cart is empty")
