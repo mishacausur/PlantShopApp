@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CardView: View {
+    @EnvironmentObject var manager: AppManager
     var plant: PlantModel
     var body: some View {
         ZStack(alignment: .topTrailing) {
@@ -19,19 +20,18 @@ struct CardView: View {
                     .cornerRadius(20)
                 VStack(alignment: .leading) {
                     Text(plant.name)
-                        .font(.system(size: 16, weight: .bold))
+                        .font(.system(size: 14, weight: .bold))
                     Text("£\(plant.price).00")
                         .font(.caption)
                 }
                 .frame(maxWidth: 164, alignment: .leading)
-//                .padding(.vertical, 8)
                 .padding(6)
                 .background(.ultraThinMaterial).cornerRadius(12)
             }
             .frame(width: 164)
             .shadow(radius: 6)
             Button {
-                print("added")
+                manager.addPlantToCart(plant: plant)
             } label: {
                 Image(systemName: "plus")
                     .frame(width: 8, height: 8)
@@ -49,5 +49,6 @@ struct CardView: View {
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
         CardView(plant: PlantModel.plants[0])
+            .environmentObject(AppManager())
     }
 }
