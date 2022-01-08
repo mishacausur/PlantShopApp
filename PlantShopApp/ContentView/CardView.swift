@@ -8,13 +8,46 @@
 import SwiftUI
 
 struct CardView: View {
+    var plant: PlantModel
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(alignment: .topTrailing) {
+            ZStack(alignment: .bottom) {
+                Image(plant.image)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 164)
+                    .cornerRadius(20)
+                VStack(alignment: .leading) {
+                    Text(plant.name)
+                        .font(.system(size: 16, weight: .bold))
+                    Text("£\(plant.price).00")
+                        .font(.caption)
+                }
+                .frame(maxWidth: 164, alignment: .leading)
+//                .padding(.vertical, 8)
+                .padding(6)
+                .background(.ultraThinMaterial).cornerRadius(12)
+            }
+            .frame(width: 164)
+            .shadow(radius: 6)
+            Button {
+                print("added")
+            } label: {
+                Image(systemName: "plus")
+                    .frame(width: 8, height: 8)
+                    .padding(10)
+                    .background(.black)
+                    .foregroundColor(.white)
+                    .cornerRadius(50)
+                    .padding(6)
+                  
+            }
+        }
     }
 }
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView()
+        CardView(plant: PlantModel.plants[0])
     }
 }

@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct PlantModel {
+struct PlantModel: Identifiable {
     let id = UUID()
     let name: String
     let image: String

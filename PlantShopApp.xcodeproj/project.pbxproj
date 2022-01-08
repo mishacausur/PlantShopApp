@@ -58,7 +58,6 @@
 				B6927BBD2789B0740031B432 /* ContentView */,
 				B6927BBC2789B06C0031B432 /* Datas */,
 				B6927BAC2789AD7D0031B432 /* PlantShopAppApp.swift */,
-				B6927BAE2789AD7D0031B432 /* ContentView.swift */,
 				B6927BB02789AD7F0031B432 /* Assets.xcassets */,
 				B6927BB22789AD7F0031B432 /* Preview Content */,
 			);
@@ -84,6 +83,7 @@
 		B6927BBD2789B0740031B432 /* ContentView */ = {
 			isa = PBXGroup;
 			children = (
+				B6927BAE2789AD7D0031B432 /* ContentView.swift */,
 				B6927BBE2789B0850031B432 /* CardView.swift */,
 			);
 			path = ContentView;
