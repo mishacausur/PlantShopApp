@@ -3,7 +3,7 @@
 This shopping app allows to order some plants to your home or office to make it cozier 
 - This is the main screen where you can explore and choose your favorite plants
 <img src="https://i.ibb.co/ZXxdgP6/Simulator-Screen-Shot-i-Phone-12-mini-2022-01-08-at-18-24-43.png" width="200" />
-- After adding plants to cart by pushing the plus button ypu can see the count of plants you added in the red circle on the cart icon
+- After adding plants to cart by pushing the plus button you can see the count of plants you added in the red circle on the cart icon
 <img src="https://i.ibb.co/F4dXScM/Simulator-Screen-Shot-i-Phone-12-mini-2022-01-08-at-18-25-03.png" width="200" />
 - If you ready to order just tap on the cart icon at the top of the screen and the cart screen will be open
 <img src="https://i.ibb.co/n3X04Nh/Simulator-Screen-Shot-i-Phone-12-mini-2022-01-08-at-20-39-04.png" width="200" />
